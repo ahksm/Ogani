@@ -106,7 +106,7 @@ class UserService
             return $_SESSION['user'];
         }
 
-        header("Location: /user/login");
+        header("Location: /login");
     }
 
     public static function isGuest()
