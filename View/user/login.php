@@ -20,7 +20,7 @@
                 }
                 ?>
 
-                <p class="login">Not Registered yet? Then <a href="/user/login">click here.</a></p>
+                <p class="login">Not Registered yet? Then <a href="/login">click here.</a></p>
                 <div class="form-group">
                     <button type="submit" name="submit" class="btn btn-primary">Submit</button>
                 </div>

@@ -43,7 +43,7 @@
                     }
                     ?>
                 </div>
-                <p class="login">Already Registered? Then <a href="/user/login">login.</a></p>
+                <p class="login">Already Registered? Then <a href="/login">login.</a></p>
                 <div class="form-group">
                     <button type="submit" name="submit" class="btn btn-primary">Submit</button>
                 </div>
