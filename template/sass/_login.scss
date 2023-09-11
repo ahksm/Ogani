@@ -1,0 +1,79 @@
+/*---------------------
+  Login
+-----------------------*/
+.form-validation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+    form {
+        width: 100%;
+        
+        .form-group {
+            width: 100%;
+            display: flex;
+
+            &:last-child {
+                width: 100%;
+                display: flex;
+                
+            }
+
+            .btn {
+                width: 50%;
+                margin: auto;
+                background-color: $primary-color;
+                border: none;
+                outline: none;
+                box-shadow: $primary-color;
+                border-radius: 0px;
+
+                &:active,
+                &:focus {
+                    border: none;
+                    outline: none;
+                    background-color: $primary-color;
+                    box-shadow: none;
+                }
+            }
+        }
+
+        .col-xl-6:first-child {
+            .form-group {
+                justify-content: end;
+            }
+        }
+        
+        .col-xl-6:last-child {
+            .form-group {
+                justify-content: start;
+            }
+        }
+    }
+}
+
+.form-row {
+    width: max-content;
+    padding: 15px;
+    padding-top: 30px;
+    border: 5px double $primary-color;
+
+    h1 {
+        font-size: 36px;
+    }
+}
+
+.error {
+    font-size: 12px;
+    color: #FF1616;
+}
+
+.login {
+    margin-top: 30px;
+
+    a {
+        color: $primary-color;
+    }
+}
+
